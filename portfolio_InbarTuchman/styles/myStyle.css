@@ -1,0 +1,223 @@
+/*Font Format*/
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../font/Segoe UI.eot');
+    src: url('../Fonts/Segoe UI.eot?#iefix') format('embedded-opentype'), url('../Fonts/Segoe UI.ttf') format('truetype');
+}
+
+#container * {
+    font-family: 'Segoe UI';
+}
+
+body {
+    direction: rtl;
+    margin: 0 auto 960px;
+    background-color: white;
+}
+
+article {
+    margin: 0 auto;
+    width: 960px;
+    height: 820px;
+    background-color: #E2EBE7;
+}
+
+header {
+    background-color: white;
+}
+
+h1 {
+    font-size: 32pt;
+    color: #C68E8A;
+    margin: 16px;
+    margin-top: -10px;
+    position: relative;
+    top: 22px;
+}
+
+h2 {
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 21px;
+}
+
+p {
+    font-size: 17pt;
+}
+/*design only for the first section, the first child color-profile the article*/
+article > section {
+    text-align: initial;
+    padding: 28px;
+    padding-top: 33px;
+    margin: 61px;
+    width: 534px;
+    height: 375px;
+    background-color: #96B6A9;
+    position: absolute;
+    margin-top: 44px;
+}
+/*design only for the section in the home page*/
+#home {
+    border: 8px dotted #C68E8A;
+    /*animation*/
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+    /*animation result*/
+    #home:hover {
+        height: 395px;
+        background-color: #C68E8A;
+        border: 8px dotted #50516A;
+    }
+/*blue frame for the picture of me*/
+#blue {
+    width: 278px;
+    height: 296px;
+    background-color: #50516A;
+    float: left;
+    position: relative;
+    top: -179px;
+    right: 253px;
+}
+
+/*the picture of me*/
+#self {
+    position: relative;
+    right: 531px;
+    top: -154px;
+}
+
+/*chaning background color of a menue button at a current page*/
+.signal {
+    background-color: cadetblue;
+    color: white;
+}
+
+/*navigation design*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 780px;
+    margin-right: 253px;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: palevioletred;
+    font-size: 14pt;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-decoration: solid;
+    margin: -3px;
+}
+
+/*changing the background of a menu button using a mouse*/
+li a:hover {
+    background-color: #50516A;
+    color: white;
+}
+
+
+
+/*-------first project-------*/
+
+/*costomize background size*/
+#diffH {
+    height: 945px;
+    width: 970px;
+}
+/*costomize section size*/
+#first {
+    width: 775px;
+    height: 189px;
+}
+
+#myImage {
+    right: -47px;
+    position: relative;
+    top: 70px;
+}
+
+#video {
+    position: relative;
+    right: 281px;
+    top: -340px;
+}
+
+
+
+/*-------second profect-photpshop------*/
+
+/*costomize section size*/
+#second {
+    height: 200px;
+}
+
+#before {
+    position: absolute;
+    right: 355px;
+    top: 243px;
+}
+
+#after {
+    position: absolute;
+    left: -122px;
+    top: 121px;
+}
+/*blue frame for the images*/
+#backround {
+    background-color: #50516A;
+    width: 534px;
+    height: 353px;
+    position: absolute;
+    right: 325px;
+}
+
+#song2 {
+    position: relative;
+    top: 290px;
+    right: -48px;
+}
+
+
+/*------third project-poster ------*/
+
+/*costomize section size*/
+#third {
+    width: 400px;
+    height: 213px;
+}
+
+/*blue frame for the images*/
+#blue2 {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    background-color: #50516A;
+    right: 449px;
+    top: -100px;
+}
+
+#poster {
+    position: relative;
+    right: 477px;
+    top: -531px;
+}
+
+#song1 {
+    position: relative;
+    top: -591px;
+}
