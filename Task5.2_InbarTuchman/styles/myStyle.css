@@ -1,0 +1,87 @@
+
+#container * {
+    font-family: Arial;
+}
+
+body {
+    direction: rtl;
+    margin: 0 auto 960px;
+    background-color: white;
+    height: 1px;
+}
+article {
+    margin: 0 auto;
+    width: 960px;
+    height: 811px;
+    
+    background-color: white;
+    border: 3px double black;
+}
+
+#main {
+    background-color: #e2f0d9;
+    height: 422px;
+}
+h1 {
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 14px;
+}
+h2 {
+    color: green;
+    margin: 10px;
+    font-size: 16pt;
+}
+p {
+    font-size: 17pt;
+    text-align: right;
+    width: 411px;
+    margin: 74px;
+    line-height: 30px;
+}
+p > a {
+    position: relative;
+    top: 32px;
+    font-size: 16pt;
+}
+form {
+    position: relative;
+    right: 600px;
+    top: -298px;
+    width: 231px;
+    height: 261px;
+    background-color: #a2d087;
+    text-align: center;
+    padding-top: 1px;
+    /*עיגול פינות*/
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+li{
+    font-size:14pt;
+    
+}
+/*ריווח האלמנטים בטופס*/
+input, select {
+    vertical-align: middle;
+    margin: 7px;
+    height: 25px;
+}
+
+section > section {
+    text-align: center;
+    display: inline-block;
+    padding-top: 210px;
+    width: 301px;
+    margin: 8px;
+    height: 99px;
+}
+ul{
+        list-style:none;
+}
+img { /*התמונות*/
+    position: relative;
+    top: -293px;
+    
+}
